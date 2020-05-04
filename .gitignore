@@ -1,0 +1,5 @@
+resq/chatbot/
+api/config.py
+api/env/
+api/__pycache__/
+

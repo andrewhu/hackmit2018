@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>MapMagic API</title>
+  <link rel="icon" href="https://mapmagic.io/img/mapmagic-icon.png">
+  <link href="https://mapmagic.io/css/new-age.css" rel="stylesheet">
+  <link href="https://mapmagic.io/css/api.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+
+<div class="container">
+  <div id="api-header" class="header-content mx-auto">
+    <h1 class="mb-5"><strong>MapMagic API Reference</strong></h1>
+  </div>
+  <h2><strong>Methods</strong></h2>
+  <ul>
+    <li>
+      <h4 class="method"><a href="https://api.mapmagic.io/tweets/">/tweets/</a></h4>
+      <p>Returns tweets relevant to topics chosen in control panel (under development)</p>
+      <p>Example:</p>
+      <code>{ <br>
+        <strong>body</strong>: "The flooding has hit the Charlotte area. #Florence",<br>
+        <strong>date</strong>: "Sun Sep 16 04:05:50 +0000 2018",<br>
+        <strong>id</strong>: 345,<br>
+        <strong>lat</strong>: 35.001706,<br>
+        <strong>lng</strong>: -81.046876,<br>
+        <strong>sentiment</strong>: "-0.352619",<br>
+        <strong>tweet_id</strong>: "1041176309261639681",<br>
+        <strong>weight</strong>: 1.6434777694708416<br>
+        }
+      </code>
+    </li>
+    <li>
+      <h4 class="method"><a href="https://api.mapmagic.io/tweets/">/coords/</a></h4>
+      <p>Returns tweet coordinates and sentiment weight. Used for Twitter heatmap</p>
+      <p>Example:</p>
+      <code>
+        {<br>
+        <strong>lat</strong>: 36.540739,<br>
+        <strong>lng</strong>: -83.67529,<br>
+        <strong>weight</strong>: 0.11688417068251102<br>
+        }
+      </code>
+    </li>
+    <li>
+      <h4 class="method"><a href="https://api.mapmagic.io/users/">/users/</a></h4>
+      <p>Returns list of users. Used for the ResQ api</p>
+      <p>Example:</p>
+      <code>
+        {<br>
+        <strong>id</strong>: 9403,<br>
+        <strong>name</strong>: "Bob Bobertson",<br>
+        <strong>age</strong>: 38,<br>
+        <strong>coords_home</strong>: {<strong>lat</strong>: 33.920239, <strong>lng</strong>: -51.22595}, <br>
+        <strong>coords_last_seen</strong>: {<strong>lat</strong>: 33.894321, <strong>lng</strong>: -51.39219}, <br>
+        <strong>date_registered</strong>: "Thu Sep 13 04:20:10 +0000 2018",<br>
+        <strong>phone</strong>: "2128675309",<br>
+        <strong>email</strong>: "bobertson@aol.com",<br>
+        <strong>supplies_requested</strong>: ["toilet paper", "first aid kit", "clean water"]<br>
+        }
+      </code>
+    </li>
+  </ul>
+</div>
+
+
+</body>
+</html>

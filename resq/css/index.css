@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "sfp";
+    src: url("https://resq.mapmagic.io/dashboard/assets/fonts/SofiaProRegular.6ad63661.ttf")
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "sfp";
+    height: 100vh;
+    background: #E8554E;
+    color: white
+}
+
+.top {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    line-height: 2.8em;
+    color: hsla(0, 0%, 100%, .7);
+}
+
+.top li {
+    margin-left: 64px;
+}
+
+#navvy {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+
+}
+
+#logo {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: white;
+    line-height: 1.73em;
+    margin-left: 0;
+}
+
+#bod {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+
+#bigboi {
+    font-size: 5em;
+    margin-top: 1.4em;
+    color: white; line-height:1.2em
+}
+
+#descript {
+    font-size: 2em
+}
+
+#bod {
+    display: flex
+}
+
+#lefty {
+    flex-basis: 50%;
+
+    max-width: 50%
+}
+
+#donate {
+    flex-basis: 41.66667%;
+    height: 80vh;
+    max-width: 41.66667%;
+}
+#form-cont {
+    background: white;
+
+    margin: 25% 30%;
+
+    height: 400px;
+
+    width: 420px;
+
+
+    border-radius: 5px;
+    padding: 20px;
+    color:black;
+    text-align:center
+}
+
+.reg {
+    float: right
+}
+input[type='text'] {
+    height: 48px;
+    max-width: 100%;
+    /* padding: 0 16px; */
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    color: rgba(3,27,78,.7);
+    transition: all .25s cubic-bezier(.645,.045,.355,1);
+    border-radius: 5px;
+    width: 90%;
+    position: relative;
+    padding: 0 15px;
+}
+
+#donate-sub {
+    background: #E8554E;
+    cursor:pointer;
+
+    width: 90%;
+
+    height: 50px;
+    margin-top: 20px;
+
+    border-radius: 5px;
+
+    border: 2px solid #E8554E;
+
+    font-size: 1.4em;
+
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: lightgrey
+}
+#card_num {
+    width: 50%;
+    float:left;
+    margin-left: 22px;
+}
+#cvc_num {
+    width: 20%;
+    float: right;
+    margin-right: 22px;
+}
+
+#hackmit-ribbon {
+    width: 120px;
+    position: fixed;
+    z-index: 999;
+    top: 8vh;
+}

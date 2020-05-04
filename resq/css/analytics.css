@@ -1,0 +1,72 @@
+.data{
+    text-align:center;
+}
+.gap{
+    margin-bottom:2rem;
+}
+.listy {
+
+    list-style: none;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 14px;
+}
+.content {
+    padding-bottom: 1.5em!important;
+}
+button {
+    border-color: #f26752!important;
+    color: #f26752!important;
+    margin-right: 0.5em;
+}
+button:hover {
+    background-color: #f26752!important;
+    color: white!important;
+}
+.verified {
+    color: #5ebc7a!important;
+}
+.sidebar .nav p,
+.off-canvas-sidebar .nav {
+    color: #555555!important;
+    text-transform: none!important;
+    font-size: 1.1em;
+}
+.sidebar .nav .active p,
+.off-canvas-sidebar .nav .active p {
+    color: #f26752!important;
+    text-transform: none!important;
+    font-size: 1.1em;
+}
+#itemreq{
+    border: 1px solid rgb(200, 200, 200)!important;
+}
+.card .content {
+    padding-top: 0px !important;
+}
+.limited{
+    max-height: 30em;
+    overflow: scroll;
+}
+img {
+    border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+button,
+input {
+    overflow: visible;
+}
+button,
+select {
+    text-transform: none;
+}

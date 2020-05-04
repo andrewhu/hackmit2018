@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+.method {
+    font-family: monospace, 'Courier New', 'Courier' ;
+    font-weight: 800;
+}
+a {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+a:hover {
+    color: royalblue;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+h4 {
+    font-size: 1.4em;
+}
+#api-header {
+    margin-top: 80px;
+}
